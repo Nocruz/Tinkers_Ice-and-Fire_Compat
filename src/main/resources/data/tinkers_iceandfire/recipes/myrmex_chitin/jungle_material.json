@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "iceandfire:myrmex_jungle_chitin" },
+  "value": 1,
+  "needed": 1,
+  "material": "tinkers_iceandfire:myrmex_chitin#jungle"
+}

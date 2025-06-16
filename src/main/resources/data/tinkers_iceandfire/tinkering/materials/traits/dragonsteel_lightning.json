@@ -1,0 +1,6 @@
+﻿{
+  "default": [
+    { "name": "tconstruct:ductile", "level": 1 },
+    { "name": "tinkers_iceandfire:tempest", "level": 1 }
+  ]
+}

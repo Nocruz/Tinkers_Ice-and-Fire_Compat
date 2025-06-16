@@ -1,0 +1,10 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": { "item": "iceandfire:dragon_bone_block" },
+  "result": {
+    "fluid": "tinkers_iceandfire:molten_dragonbone",
+    "amount": 900
+  },
+  "temperature": 1250,
+  "time": 800
+}

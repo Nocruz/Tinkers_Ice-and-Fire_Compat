@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_iceandfire:dragonbone",
+  "temperature": 1250,
+  "result": {
+    "fluid": "tinkers_iceandfire:molten_dragonbone",
+    "amount": 100
+  }
+}

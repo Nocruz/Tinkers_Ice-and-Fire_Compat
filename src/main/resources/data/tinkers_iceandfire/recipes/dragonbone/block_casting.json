@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "fluid": "tinkers_iceandfire:molten_dragonbone",
+    "amount": 900
+  },
+  "result": "iceandfire:dragon_bone_block",
+  "cooling_time": 800
+}

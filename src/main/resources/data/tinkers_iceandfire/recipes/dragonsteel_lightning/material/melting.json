@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "tinkers_iceandfire:dragonsteel_lightning",
+  "temperature": 1250,
+  "result": {
+    "fluid": "tinkers_iceandfire:molten_dragonsteel_lightning",
+    "amount": 100
+  }
+}

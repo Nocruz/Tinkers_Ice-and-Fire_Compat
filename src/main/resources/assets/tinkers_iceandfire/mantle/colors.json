@@ -1,0 +1,18 @@
+﻿{
+  "modifier.tinkers_iceandfire": {
+    "dragons_fear": "#C9C5B9",
+    "inferno": "#46191D",
+    "blizzard": "#AAD3F1",
+    "tempest": "#3A2C75",
+    "boardy": "#DFD4AC",
+    "entomophobic": "#126778"
+  },
+  "material.tinkers_iceandfire": {
+    "dragonbone": "#C9C5B9",
+    "dragonsteel_fire": "#46191D",
+    "dragonsteel_ice": "#AAD3F1",
+    "dragonsteel_lightning": "#3A2C75",
+    "deathworm_chitin": "#DFD4AC",
+    "myrmex_chitin": "#126778"
+  }
+}

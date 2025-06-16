@@ -1,0 +1,85 @@
+﻿{
+  "itemGroup.tinkers_iceandfire.tinkers_iceandfire": "Tinkers' Ice and Fire",
+
+  "material.tinkers_iceandfire.dragonbone": "Dragon Bone",
+  "material.tinkers_iceandfire.dragonbone.flavor": "Bones retrieved from a Dragon! Very sharp, specially to dragons",
+  "material.tinkers_iceandfire.dragonbone.encyclopedia": "Grants +4 damage to all dragons per level",
+
+  "fluid_type.tinkers_iceandfire.molten_dragonbone": "Molten Dragon Bone",
+  "block.tinkers_iceandfire.molten_dragonbone": "Molten Dragon Bone",
+  "fluid.tinkers_iceandfire.molten_dragonbone": "Molten Dragon Bone",
+  "fluid.tinkers_iceandfire.molten_dragonbone_flowing": "Flowing Molten Dragon Bone",
+  "item.tinkers_iceandfire.molten_dragonbone_bucket": "Molten Dragon Bone Bucket",
+  "fluid.tinkers_iceandfire.molten_dragonbone.fluid_effect": "Liquid bone? Chills!",
+
+  "modifier.tinkers_iceandfire.dragons_fear": "Dragon's Fear",
+  "modifier.tinkers_iceandfire.dragons_fear.flavor": "Dragons shalt be shook",
+  "modifier.tinkers_iceandfire.dragons_fear.description": "Deals more damage to dragons",
+  "modifier.tinkers_iceandfire.dragons_fear.attack_damage": "Dragon Damage",
+
+  "material.tinkers_iceandfire.dragonsteel_fire": "Fire Dragonsteel",
+  "material.tinkers_iceandfire.dragonsteel_fire.flavor": "Steel forged by a fire dragon",
+  "material.tinkers_iceandfire.dragonsteel_fire.encyclopedia": "Ignites and knocks back targets",
+
+  "fluid_type.tinkers_iceandfire.molten_dragonsteel_fire": "Molten Fire Dragonsteel",
+  "block.tinkers_iceandfire.molten_dragonsteel_fire": "Molten Fire Dragonsteel",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_fire": "Molten Fire Dragonsteel",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_fire_flowing": "Flowing Molten Fire Dragonsteel",
+  "item.tinkers_iceandfire.molten_dragonsteel_fire_bucket": "Molten Fire Dragonsteel Bucket",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_fire.fluid_effect": "It burns",
+
+  "modifier.tinkers_iceandfire.inferno": "Inferno",
+  "modifier.tinkers_iceandfire.inferno.flavor": "Attack like a dragon",
+  "modifier.tinkers_iceandfire.inferno.description": "Deals fire damage and knockback",
+  "modifier.tinkers_iceandfire.inferno.attack_damage": "Fire Damage",
+
+  "material.tinkers_iceandfire.dragonsteel_ice": "Ice Dragonsteel",
+  "material.tinkers_iceandfire.dragonsteel_ice.flavor": "Steel forged by an ice dragon",
+  "material.tinkers_iceandfire.dragonsteel_ice.encyclopedia": "Ignites and knocks back targets",
+
+  "fluid_type.tinkers_iceandfire.molten_dragonsteel_ice": "Molten Ice Dragonsteel",
+  "block.tinkers_iceandfire.molten_dragonsteel_ice": "Molten Ice Dragonsteel",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_ice": "Molten Ice Dragonsteel",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_ice_flowing": "Flowing Molten Ice Dragonsteel",
+  "item.tinkers_iceandfire.molten_dragonsteel_ice_bucket": "Molten Ice Dragonsteel Bucket",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_ice.fluid_effect": "It chills",
+
+  "modifier.tinkers_iceandfire.blizzard": "Blizzard",
+  "modifier.tinkers_iceandfire.blizzard.flavor": "Feel like a dragon",
+  "modifier.tinkers_iceandfire.blizzard.description": "Deals ice damage",
+  "modifier.tinkers_iceandfire.blizzard.attack_damage": "Ice Damage",
+
+  "material.tinkers_iceandfire.dragonsteel_lightning": "Lightning Dragonsteel",
+  "material.tinkers_iceandfire.dragonsteel_lightning.flavor": "Steel forged by a lightning dragon",
+  "material.tinkers_iceandfire.dragonsteel_lightning.encyclopedia": "Ignites and knocks back targets",
+
+  "fluid_type.tinkers_iceandfire.molten_dragonsteel_lightning": "Molten Lightning Dragonsteel",
+  "block.tinkers_iceandfire.molten_dragonsteel_lightning": "Molten Lightning Dragonsteel",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_lightning": "Molten Lightning Dragonsteel",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_lightning_flowing": "Flowing Molten Lightning Dragonsteel",
+  "item.tinkers_iceandfire.molten_dragonsteel_lightning_bucket": "Molten Lightning Dragonsteel Bucket",
+  "fluid.tinkers_iceandfire.molten_dragonsteel_lightning.fluid_effect": "It hurts",
+
+  "modifier.tinkers_iceandfire.tempest": "Tempest",
+  "modifier.tinkers_iceandfire.tempest.flavor": "Feel like a dragon",
+  "modifier.tinkers_iceandfire.tempest.description": "Summons lightning on hit",
+  "modifier.tinkers_iceandfire.tempest.attack_damage": "Lightning Damage",
+
+  "material.tinkers_iceandfire.deathworm_chitin": "Deathworm Chitin",
+  "material.tinkers_iceandfire.deathworm_chitin.flavor": "I would clean it first",
+  "material.tinkers_iceandfire.deathworm_chitin.armor": "Grants extra armor toughness",
+
+  "modifier.tinkers_iceandfire.boardy": "Boardy",
+  "modifier.tinkers_iceandfire.boardy.flavor": "It's like leather, but tougher",
+  "modifier.tinkers_iceandfire.boardy.description": "Armor gets increased armor toughness",
+
+  "material.tinkers_iceandfire.myrmex_chitin": "Myrmex Chitin",
+  "material.tinkers_iceandfire.myrmex_chitin.flavor": "It's super effective!",
+  "material.tinkers_iceandfire.myrmex_chitin.encyclopedia": "Deals +4 attack damage against non-arthropods and deathworms",
+  "material.tinkers_iceandfire.myrmex_chitin.armor": "No special effects",
+
+  "modifier.tinkers_iceandfire.entomophobic": "Entomophobic",
+  "modifier.tinkers_iceandfire.entomophobic.flavor": "Invertebrate hater",
+  "modifier.tinkers_iceandfire.entomophobic.description": "Deals extra damage to deathworms and invertebrates",
+  "modifier.tinkers_iceandfire.entomophobic.attack_damage": "Invertebrate Damage"
+} 

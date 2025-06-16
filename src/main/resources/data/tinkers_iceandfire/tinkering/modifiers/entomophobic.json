@@ -1,0 +1,26 @@
+{
+  "level_display": "tconstruct:default",
+  "modules": [
+    {
+      "type": "tconstruct:conditional_melee_damage",
+      "each_level": 4.0,
+      "percent": false,
+      "target": {
+        "type": "mantle:or",
+        "predicates": [
+          {
+            "type": "mantle:inverted",
+            "inverted_type": "mantle:mob_type",
+            "mobs": "minecraft:arthropod"
+          },
+          {
+            "type": "mantle:set",
+            "entities": [
+              "iceandfire:deathworm"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

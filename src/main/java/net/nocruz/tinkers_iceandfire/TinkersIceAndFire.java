@@ -25,6 +25,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.nocruz.tinkers_iceandfire.items.TinkersIceAndFireModifiers;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -38,12 +39,13 @@ public class TinkersIceAndFire
 
     public TinkersIceAndFire(FMLJavaModLoadingContext context)
     {
-        IEventBus modEventBus = context.getModEventBus();
+        IEventBus bus = context.getModEventBus();
+        bus.addListener(this::commonSetup);
 
-        modEventBus.addListener(this::commonSetup);
+        bus.register(new TinkersIceAndFireModifiers(bus));
 
         MinecraftForge.EVENT_BUS.register(this);
-        modEventBus.addListener(this::addCreative);
+        bus.addListener(this::addCreative);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event)

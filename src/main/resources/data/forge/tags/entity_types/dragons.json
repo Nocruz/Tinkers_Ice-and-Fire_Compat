@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": [
+    "minecraft:ender_dragon",
+    "iceandfire:ice_dragon",
+    "iceandfire:fire_dragon",
+    "iceandfire:lightning_dragon"
+  ]
+}

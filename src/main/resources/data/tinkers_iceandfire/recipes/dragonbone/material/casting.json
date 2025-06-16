@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "fluid": "tinkers_iceandfire:molten_dragonbone",
+    "amount": 100
+  },
+  "temperature": 1250,
+  "output": "tinkers_iceandfire:dragonbone"
+}

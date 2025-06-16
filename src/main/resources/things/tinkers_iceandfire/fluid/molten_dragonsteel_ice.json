@@ -1,0 +1,39 @@
+{
+  "type": "flowing",
+  "bucket": {
+    "max_stack_size": 1,
+    "container": "minecraft:bucket"
+  },
+  "block": {
+    "type": "tconstruct:burning_liquid",
+    "burn_time": 10,
+    "damage": 8
+  },
+  "fluid_type": {
+    "parent": "",
+    "still_texture": "tconstruct:fluid/molten/still",
+    "flowing_texture": "tconstruct:fluid/molten/flowing",
+    "color": [124,178,209],
+    "density": 1000,
+    "luminosity": 0,
+    "temperature": 1550,
+    "viscosity": 10000,
+    "gaseous": false,
+
+    "motion_scale": 0.0233333,
+    "fall_distance_modifier": 0.5,
+    
+    "can_push_entity": true,
+    "can_swim": false,
+    "can_drown": false,
+    "can_extinguish": false,
+    "can_hydrate": false,
+    "can_convert_to_source": false,
+    "supports_boating": false,
+    
+    "sounds": {
+      "bucket_fill": "item.bucket.fill_lava",
+      "bucket_empty": "item.bucket.empty_lava"
+    }
+  }
+}

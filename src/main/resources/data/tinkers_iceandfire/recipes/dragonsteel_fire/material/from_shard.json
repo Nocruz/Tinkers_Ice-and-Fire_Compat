@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "iceandfire:dragonsteel_fire_ingot" },
+  "value": 1,
+  "needed": 1,
+  "material": "tinkers_iceandfire:dragonsteel_fire"
+}

@@ -1,0 +1,11 @@
+{
+  "icon": "iceandfire:dragonbone",
+  "after": ["tconstruct:world"],
+  "translation_key": "itemGroup.tinkers_iceandfire.tinkers_iceandfire",
+  "items": [
+    "tinkers_iceandfire:molten_dragonbone_bucket",
+    "tinkers_iceandfire:molten_dragonsteel_fire_bucket",
+    "tinkers_iceandfire:molten_dragonsteel_ice_bucket",
+    "tinkers_iceandfire:molten_dragonsteel_lightning_bucket"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "level_display": "tconstruct:default",
+  "tooltip_display": "always",
+  "modules": [
+    {
+      "type": "tconstruct:conditional_melee_damage",
+      "each_level": 4.0,
+      "percent": false,
+      "target": {
+        "type": "mantle:tag",
+        "tag": "forge:dragons"
+      }
+    }
+  ]
+}

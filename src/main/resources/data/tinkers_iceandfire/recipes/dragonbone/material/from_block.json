@@ -1,0 +1,7 @@
+{
+  "type": "tconstruct:material",
+  "ingredient": { "item": "iceandfire:dragon_bone_block" },
+  "value": 9,
+  "needed": 1,
+  "material": "tinkers_iceandfire:dragonbone"
+}
