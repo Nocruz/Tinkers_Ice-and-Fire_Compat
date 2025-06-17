@@ -1,0 +1,49 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "tooltip_display": "always",
+  "modules": [
+    {
+      "type": "tconstruct:requirements",
+      "display_modifiers": [],
+      "requirement": {
+        "type": "mantle:and",
+        "predicates": [
+          {
+            "type": "mantle:inverted",
+            "inverted_type": "mantle:or",
+            "predicates": [
+              {
+                "type": "tconstruct:has_modifier",
+                "check": "all",
+                "modifier": {
+                  "type": "tconstruct:single",
+                  "modifier": "tinkers_iceandfire:inferno"
+                }
+              },
+              {
+                "type": "tconstruct:has_modifier",
+                "check": "all",
+                "modifier": {
+                  "type": "tconstruct:single",
+                  "modifier": "tinkers_iceandfire:blizzard"
+                }
+              }
+            ]
+          },
+          {
+            "type": "tconstruct:has_modifier",
+            "check": "all",
+            "modifier": {
+              "type": "tconstruct:single",
+              "modifier": "tinkers_iceandfire:dragons_fear"
+            }
+          }
+        ]
+      },
+      "translation_key": "modifier.tinkers_iceandfire.tempest.requirements"
+    },
+    {
+      "type": "tinkers_iceandfire:summon_lightning"
+    }
+  ]
+}

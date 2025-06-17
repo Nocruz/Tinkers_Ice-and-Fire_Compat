@@ -1,31 +1,41 @@
-package net.nocruz.tinkers_iceandfire.items.modifiers.traits;
+package net.nocruz.tinkers_iceandfire.tools.modules.combat;
 
 import com.github.alexthe666.iceandfire.entity.EntityFireDragon;
 import com.github.alexthe666.iceandfire.entity.EntityIceDragon;
 import com.github.alexthe666.iceandfire.event.ServerEvents;
-import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LightningBolt;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
+import org.jetbrains.annotations.NotNull;
+import slimeknights.mantle.data.loadable.record.RecordLoadable;
+import slimeknights.mantle.data.loadable.record.SingletonLoader;
+import slimeknights.mantle.data.registry.GenericLoaderRegistry.IHaveLoader;
 import slimeknights.tconstruct.library.modifiers.ModifierEntry;
 import slimeknights.tconstruct.library.modifiers.ModifierHooks;
 import slimeknights.tconstruct.library.modifiers.hook.combat.MeleeHitModifierHook;
-import slimeknights.tconstruct.library.modifiers.impl.NoLevelsModifier;
-import slimeknights.tconstruct.library.module.ModuleHookMap;
+import slimeknights.tconstruct.library.modifiers.modules.ModifierModule;
+import slimeknights.tconstruct.library.module.HookProvider;
+import slimeknights.tconstruct.library.module.ModuleHook;
 import slimeknights.tconstruct.library.tools.context.ToolAttackContext;
 import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
 
-public class TempestModifier extends NoLevelsModifier implements MeleeHitModifierHook {
+import java.util.List;
+
+public enum SummonLightningModule implements ModifierModule, MeleeHitModifierHook {
+    INSTANCE;
+
+    private static final List<ModuleHook<?>> DEFAULT_HOOKS = HookProvider.<SummonLightningModule>defaultHooks(ModifierHooks.MELEE_HIT);
+    private final SingletonLoader<SummonLightningModule> LOADER = new SingletonLoader<>(this);
 
     @Override
-    protected void registerHooks(ModuleHookMap.Builder hookBuilder) {
-        hookBuilder.addHook(this, ModifierHooks.MELEE_HIT);
+    public @NotNull RecordLoadable<? extends IHaveLoader> getLoader() {
+        return LOADER;
     }
 
     @Override
-    public void afterMeleeHit(IToolStackView tool, ModifierEntry modifier, ToolAttackContext context, float damageDealt) {
-        smite(context.getAttacker(), context.getLivingTarget());
+    public @NotNull List<ModuleHook<?>> getDefaultHooks() {
+        return DEFAULT_HOOKS;
     }
 
     private void smite(LivingEntity attacker, LivingEntity target) {
@@ -46,7 +56,10 @@ public class TempestModifier extends NoLevelsModifier implements MeleeHitModifie
                 target.level().addFreshEntity(lightningboltentity);
             }
         }
+    }
 
-        target.knockback((double)1.0F, attacker.getX() - target.getX(), attacker.getZ() - target.getZ());
+    @Override
+    public void afterMeleeHit(IToolStackView tool, ModifierEntry modifier, ToolAttackContext context, float damageDealt) {
+        smite(context.getAttacker(), context.getLivingTarget());
     }
 }

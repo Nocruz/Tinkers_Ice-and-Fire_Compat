@@ -1,6 +1,10 @@
 ﻿{
   "default": [
-    { "name": "tconstruct:ductile", "level": 1 },
     { "name": "tinkers_iceandfire:inferno", "level": 1 }
-  ]
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      { "name": "tinkers_iceandfire:dragons_resolve_fire", "level": 1 }
+    ]
+  }
 }

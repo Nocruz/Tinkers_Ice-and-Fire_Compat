@@ -1,17 +1,21 @@
 ﻿{
   "modifier.tinkers_iceandfire": {
     "dragons_fear": "#C9C5B9",
-    "inferno": "#46191D",
+    "inferno": "#c72f1e",
     "blizzard": "#AAD3F1",
-    "tempest": "#3A2C75",
+    "tempest": "#6c23ba",
     "boardy": "#DFD4AC",
-    "entomophobic": "#126778"
+    "entomophobic": "#126778",
+    "stalwart": "#597a5a",
+    "dragons_resolve_fire": "#c72f1e",
+    "dragons_resolve_ice": "#AAD3F1",
+    "dragons_resolve_lightning": "#6c23ba"
   },
   "material.tinkers_iceandfire": {
     "dragonbone": "#C9C5B9",
-    "dragonsteel_fire": "#46191D",
+    "dragonsteel_fire": "#c72f1e",
     "dragonsteel_ice": "#AAD3F1",
-    "dragonsteel_lightning": "#3A2C75",
+    "dragonsteel_lightning": "#6c23ba",
     "deathworm_chitin": "#DFD4AC",
     "myrmex_chitin": "#126778"
   }

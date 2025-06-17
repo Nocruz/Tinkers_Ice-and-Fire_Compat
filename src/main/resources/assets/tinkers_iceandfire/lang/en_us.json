@@ -19,7 +19,8 @@
 
   "material.tinkers_iceandfire.dragonsteel_fire": "Fire Dragonsteel",
   "material.tinkers_iceandfire.dragonsteel_fire.flavor": "Steel forged by a fire dragon",
-  "material.tinkers_iceandfire.dragonsteel_fire.encyclopedia": "Ignites and knocks back targets",
+  "material.tinkers_iceandfire.dragonsteel_fire.encyclopedia": "Ignites and knocks back targets. Increased damage to Ice Dragons",
+  "material.tinkers_iceandfire.dragonsteel_fire.armor": "Reduces damage from Fire Dragons",
 
   "fluid_type.tinkers_iceandfire.molten_dragonsteel_fire": "Molten Fire Dragonsteel",
   "block.tinkers_iceandfire.molten_dragonsteel_fire": "Molten Fire Dragonsteel",
@@ -32,10 +33,17 @@
   "modifier.tinkers_iceandfire.inferno.flavor": "Attack like a dragon",
   "modifier.tinkers_iceandfire.inferno.description": "Deals fire damage and knockback",
   "modifier.tinkers_iceandfire.inferno.attack_damage": "Fire Damage",
+  "modifier.tinkers_iceandfire.inferno.requirements": "Tool must have Dragon's Fear and must not have Blizzard nor Tempest",
+
+  "modifier.tinkers_iceandfire.dragons_resolve_fire": "Dragon's Fiery Resolve",
+  "modifier.tinkers_iceandfire.dragons_resolve_fire.flavor": "Resist like a dragon",
+  "modifier.tinkers_iceandfire.dragons_resolve_fire.description": "Increases protection against fire dragon's damage",
+  "modifier.tinkers_iceandfire.dragons_resolve_fire.resistance": "Fire Dragon Resistance",
 
   "material.tinkers_iceandfire.dragonsteel_ice": "Ice Dragonsteel",
   "material.tinkers_iceandfire.dragonsteel_ice.flavor": "Steel forged by an ice dragon",
-  "material.tinkers_iceandfire.dragonsteel_ice.encyclopedia": "Ignites and knocks back targets",
+  "material.tinkers_iceandfire.dragonsteel_ice.encyclopedia": "Entities attacked will get frozen. Increased damage to Fire Dragons",
+  "material.tinkers_iceandfire.dragonsteel_ice.armor": "Reduces damage from Ice Dragons",
 
   "fluid_type.tinkers_iceandfire.molten_dragonsteel_ice": "Molten Ice Dragonsteel",
   "block.tinkers_iceandfire.molten_dragonsteel_ice": "Molten Ice Dragonsteel",
@@ -46,12 +54,19 @@
 
   "modifier.tinkers_iceandfire.blizzard": "Blizzard",
   "modifier.tinkers_iceandfire.blizzard.flavor": "Feel like a dragon",
-  "modifier.tinkers_iceandfire.blizzard.description": "Deals ice damage",
+  "modifier.tinkers_iceandfire.blizzard.description": "Freezes the target in place",
   "modifier.tinkers_iceandfire.blizzard.attack_damage": "Ice Damage",
+  "modifier.tinkers_iceandfire.blizzard.requirements": "Tool must have Dragon's Fear and must not have Inferno nor Tempest",
+
+  "modifier.tinkers_iceandfire.dragons_resolve_ice": "Dragon's Icy Resolve",
+  "modifier.tinkers_iceandfire.dragons_resolve_ice.flavor": "Resist like a dragon",
+  "modifier.tinkers_iceandfire.dragons_resolve_ice.description": "Increases protection against ice dragon's damage",
+  "modifier.tinkers_iceandfire.dragons_resolve_ice.resistance": "Ice Dragon Resistance",
 
   "material.tinkers_iceandfire.dragonsteel_lightning": "Lightning Dragonsteel",
   "material.tinkers_iceandfire.dragonsteel_lightning.flavor": "Steel forged by a lightning dragon",
-  "material.tinkers_iceandfire.dragonsteel_lightning.encyclopedia": "Ignites and knocks back targets",
+  "material.tinkers_iceandfire.dragonsteel_lightning.encyclopedia": "Smites targets with lightning. Increased damage to Ice and Fire Dragons",
+  "material.tinkers_iceandfire.dragonsteel_lightning.armor": "Reduces damage from Lightning Dragons",
 
   "fluid_type.tinkers_iceandfire.molten_dragonsteel_lightning": "Molten Lightning Dragonsteel",
   "block.tinkers_iceandfire.molten_dragonsteel_lightning": "Molten Lightning Dragonsteel",
@@ -61,9 +76,15 @@
   "fluid.tinkers_iceandfire.molten_dragonsteel_lightning.fluid_effect": "It hurts",
 
   "modifier.tinkers_iceandfire.tempest": "Tempest",
-  "modifier.tinkers_iceandfire.tempest.flavor": "Feel like a dragon",
+  "modifier.tinkers_iceandfire.tempest.flavor": "Thunderstruck!",
   "modifier.tinkers_iceandfire.tempest.description": "Summons lightning on hit",
   "modifier.tinkers_iceandfire.tempest.attack_damage": "Lightning Damage",
+  "modifier.tinkers_iceandfire.tempest.requirements": "Tool must have Dragon's Fear and must not have Blizzard nor Inferno",
+
+  "modifier.tinkers_iceandfire.dragons_resolve_lightning": "Dragon's Stormy Resolve",
+  "modifier.tinkers_iceandfire.dragons_resolve_lightning.flavor": "Resist like a dragon",
+  "modifier.tinkers_iceandfire.dragons_resolve_lightning.description": "Increases protection against lightning dragon's damage",
+  "modifier.tinkers_iceandfire.dragons_resolve_lightning.resistance": "Lightning Dragon Resistance",
 
   "material.tinkers_iceandfire.deathworm_chitin": "Deathworm Chitin",
   "material.tinkers_iceandfire.deathworm_chitin.flavor": "I would clean it first",
@@ -81,5 +102,9 @@
   "modifier.tinkers_iceandfire.entomophobic": "Entomophobic",
   "modifier.tinkers_iceandfire.entomophobic.flavor": "Invertebrate hater",
   "modifier.tinkers_iceandfire.entomophobic.description": "Deals extra damage to deathworms and invertebrates",
-  "modifier.tinkers_iceandfire.entomophobic.attack_damage": "Invertebrate Damage"
+  "modifier.tinkers_iceandfire.entomophobic.attack_damage": "Invertebrate Damage",
+
+  "modifier.tinkers_iceandfire.stalward": "Stalward",
+  "modifier.tinkers_iceandfire.stalward.flavor": "It's like mail, but tougher",
+  "modifier.tinkers_iceandfire.stalward.description": "Armor gets increased armor points"
 } 

@@ -1,6 +1,6 @@
 ﻿{
   "fallbacks": [ "metal", "rock" ],
-  "color": "3A2C75",
+  "color": "6c23ba",
   "luminosity": 3,
   "generator": {
     "transformer": {

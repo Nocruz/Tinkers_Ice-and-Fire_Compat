@@ -1,5 +1,10 @@
 ﻿{
   "default": [
     { "name": "tinkers_iceandfire:entomophobic", "level": 1 }
-  ]
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      { "name": "tinkers_iceandfire:stalwart", "level": 1 }
+    ]
+  }
 }
